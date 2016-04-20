@@ -26,7 +26,7 @@ $APPLICATION->SetTitle("Интернет-магазин \"Одежда\"");
 	false
 );?>
 <?endif?>
-12312312sdf
+1tetttttt
 <h2>Тренды сезона</h2>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:catalog.section",
