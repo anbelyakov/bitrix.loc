@@ -1,11 +1,11 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Title");
+$APPLICATION->SetTitle("1C");
 ?>
 
 <?$APPLICATION->IncludeComponent("bitrix:catalog", "", array(
-    "IBLOCK_TYPE" => "Catalogs_exchange",
-    "IBLOCK_ID" => "4",
+    "IBLOCK_TYPE" => "catalog",
+    "IBLOCK_ID" => "5",
     "TEMPLATE_THEME" => "site",
     "HIDE_NOT_AVAILABLE" => "N",
     "BASKET_URL" => "/personal/cart/",
@@ -15,7 +15,7 @@ $APPLICATION->SetTitle("Title");
     "PRODUCT_QUANTITY_VARIABLE" => "quantity",
     "PRODUCT_PROPS_VARIABLE" => "prop",
     "SEF_MODE" => "Y",
-    "SEF_FOLDER" => "/exchange/",
+    "SEF_FOLDER" => "/catalog/",
     "AJAX_MODE" => "N",
     "AJAX_OPTION_JUMP" => "N",
     "AJAX_OPTION_STYLE" => "Y",
@@ -202,4 +202,5 @@ $APPLICATION->SetTitle("Title");
 ),
     false
 );?>
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
